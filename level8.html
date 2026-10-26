@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>[DOCPA] Level 8</title><link rel="icon" type="image/png" href="favicon.png"><link rel="stylesheet" href="style.css"></head>
-<body><main><h1>8. Follow The Request</h1><p>The page is loading something. Where from?</p><p id="s">Loading…</p><script>fetch("data/token.json").then(r=>r.json()).then(()=>{document.getElementById("s").textContent="Done."})</script>
-<form id="g" data-hash="6e4cadce54be0b2cc248697d0c99bfd2fabe0aeb0e712718f1b60dcfdaf70a0a" data-next="complete.html"><input id="p" autocomplete="off" placeholder="passcode"><button>Go</button></form><p id="m"></p></main>
-<details><summary>Hint</summary><p>DevTools, Network tab, then reload. Look at the requests the page makes and what they return. (Needs to be served over http, not opened as a file.)</p></details><script src="app.js"></script></body></html>
+<body data-level="8"><div id="tm"></div><main><h1>8. Follow The Request</h1><p>The page is loading something. Where from?</p><p id="s">Loading…</p><script>fetch("data/token.json").then(function(r){return r.json()}).then(function(){document.getElementById("s").textContent="Done."})</script>
+<form id="g" data-hash="6e4cadce54be0b2cc248697d0c99bfd2fabe0aeb0e712718f1b60dcfdaf70a0a" data-next="level9.html"><input id="p" autocomplete="off" placeholder="passcode"><button>Go</button></form><p id="m"></p></main>
+<div id="hint"><button id="hb">Hint</button><p id="ht"></p></div><script src="app.js"></script></body></html>
