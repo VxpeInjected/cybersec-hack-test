@@ -15,6 +15,6 @@ Elements = **Inspector**, Sources = **Debugger**, Application = **Storage**. Con
 10. **Locked Out**: Elements/Inspector. Remove the `disabled` attribute from the button, then click it. Answer: `unlocked`
 11. **Credentials Please**: Add `?role=admin` to the end of the URL. Answer: `tampered`
 12. **Lost In Translation**: The text is Base64. In the Console run `atob("cGxhaW50ZXh0")`. Answer: `plaintext`
-13. **Keep Out**: Replace `level13.html` at the end of the address with `robots.txt`. It lists a disallowed page (`vault-9f3a.html`); open that page the same way. Answer: `crawler`
+13. **Keep Out**: Replace `level-13` at the end of the address with `robots.txt`. It lists a disallowed page (`vault-9f3a`); open that page the same way. Answer: `crawler`
 14. **Override**: In the Console run `unlocked=true`, then click the button. Answer: `override`
 15. **Frozen In Time**: Open DevTools first, then reload. The page pauses on a `debugger` statement; while paused, the passcode is on screen. Answer: `frozen`
