@@ -3,6 +3,7 @@ body{margin:0;min-height:100vh;min-height:100dvh;box-sizing:border-box;padding-t
 main{margin:auto;width:90%;max-width:36rem;padding:1rem 0}h1{font-size:1.4rem}
 input,button{font:inherit;padding:.4rem .6rem;margin:.2rem;max-width:100%}
 #tm{position:fixed;top:0;left:0;z-index:20;padding:.6rem 1rem;font:.85rem ui-monospace,monospace;color:#777;background:rgba(255,255,255,.92)}
+#lv{position:fixed;top:0;right:0;z-index:20;padding:.6rem 1rem;font:.85rem ui-monospace,monospace;color:#777;background:rgba(255,255,255,.92)}
 #hint{flex-shrink:0;padding:.5rem 1rem 1.6rem;font-size:.9rem;color:#555}
 #hb{background:none;border:0;color:#555;text-decoration:underline;cursor:pointer;padding:.25rem .6rem;border-radius:4px;transition:color .3s,background .3s}
 #hb:hover{color:#0b1f4d}
@@ -17,5 +18,5 @@ input,button{font:inherit;padding:.4rem .6rem;margin:.2rem;max-width:100%}
 .btn::after{content:"\2192";position:absolute;right:1rem;top:50%;transform:translate(-8px,-50%);opacity:0;transition:transform .35s,opacity .35s}
 .btn:hover{color:#fff;letter-spacing:.28em;padding-right:3rem;box-shadow:0 6px 18px rgba(11,31,77,.25)}
 .btn:hover::before{transform:none}.btn:hover::after{opacity:1;transform:translate(0,-50%)}.btn:active{transform:scale(.97)}
-.fade{opacity:0;transform:translateY(8px);animation:up .7s ease forwards;animation-delay:var(--d,0s)}@keyframes up{to{opacity:1;transform:none}}
+.fade{animation:up .7s ease backwards;animation-delay:var(--d,0s)}@keyframes up{from{opacity:0;transform:translateY(8px)}}
 .rule{width:0;height:2px;background:#0b1f4d;margin:1.4rem auto;animation:grow .8s .5s ease forwards}@keyframes grow{to{width:120px}}
