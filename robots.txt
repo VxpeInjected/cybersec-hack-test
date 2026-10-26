@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /vault-9f3a.html
+Disallow: /cybersec-hack-test/vault-9f3a.html
