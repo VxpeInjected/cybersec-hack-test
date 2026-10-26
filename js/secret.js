@@ -1,1 +1,1 @@
-// passcode: scripted
+// passcode: compass
